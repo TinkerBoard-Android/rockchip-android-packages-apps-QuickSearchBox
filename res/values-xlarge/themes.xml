@@ -26,7 +26,7 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@drawable/activity_background</item>
-        <item name="android:windowSoftInputMode">stateUnchanged|adjustResize</item>
+        <item name="android:windowSoftInputMode">stateUnchanged<!--|adjustResize--></item>
     </style>
 
     <style name="Theme.QuickSearchBox.SearchWidgetConfig" parent="@android:style/Theme.Dialog">
